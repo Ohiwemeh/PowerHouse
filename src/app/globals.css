@@ -7,15 +7,26 @@
   --color-navy-800: #1a202c;
   --color-navy-900: #11161f;
 
-  --color-brand: #3b82f6;
-  --color-brand-600: #2563eb;
-  --color-brand-400: #60a5fa;
+  /* Company colors: royal blue and white */
+  --color-royal-blue: #4169e1;
+  --color-royal-blue-700: #355fd1;
+  --color-white: #ffffff;
+
+  --color-gold: #f59e0b;
+  --color-gold-600: #d97f06;
+  --color-gold-400: #fbbf24;
+
+  /* Brand colors map to royal blue for all components */
+  --color-brand: var(--color-royal-blue);
+  --color-brand-400: #5e7fff;
+  --color-brand-600: #2d52d4;
 
   --color-mist: #f8fafc;
   --color-mist-200: #eef2f7;
 
-  --color-background: #f8fafc;
-  --color-foreground: #1a202c;
+  /* Use white as the primary background and royal blue as brand foreground */
+  --color-background: var(--color-white);
+  --color-foreground: var(--color-royal-blue);
 
   /* Typography */
   --font-heading: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
