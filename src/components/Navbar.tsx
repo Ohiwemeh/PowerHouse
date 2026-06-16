@@ -39,12 +39,12 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#top" className="group flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-gold font-display text-xl text-navy">
+          <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand font-display text-xl text-navy">
             PH
           </span>
           <span className="font-heading text-sm font-bold uppercase leading-tight tracking-wide text-white">
             Power House
-            <span className="block text-[10px] font-medium tracking-widest text-gold-400">
+            <span className="block text-[10px] font-medium tracking-widest text-brand-400">
               Market Traders Initiative
             </span>
           </span>
@@ -55,7 +55,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-sm font-medium text-white/80 transition-colors hover:text-gold"
+                className="text-sm font-medium text-white/80 transition-colors hover:text-brand"
               >
                 {l.label}
               </a>
@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <a
             href="#join"
-            className="rounded-full bg-gold px-5 py-2.5 text-sm font-semibold text-navy shadow-lg shadow-gold/20 transition-transform hover:scale-105"
+            className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-navy shadow-lg shadow-brand/20 transition-transform hover:scale-105"
           >
             Become a Member
           </a>
@@ -136,7 +136,7 @@ export default function Navbar() {
                   <a
                     href={l.href}
                     onClick={() => setOpen(false)}
-                    className="block border-b border-white/10 py-4 font-heading text-3xl font-bold text-white transition-colors hover:text-gold"
+                    className="block border-b border-white/10 py-4 font-heading text-3xl font-bold text-white transition-colors hover:text-brand"
                   >
                     {l.label}
                   </a>
@@ -148,7 +148,7 @@ export default function Navbar() {
               <a
                 href="#join"
                 onClick={() => setOpen(false)}
-                className="block rounded-full bg-gold px-6 py-4 text-center text-base font-semibold text-navy"
+                className="block rounded-full bg-brand px-6 py-4 text-center text-base font-semibold text-navy"
               >
                 Become a Member
               </a>

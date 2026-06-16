@@ -60,7 +60,7 @@ export default function Spotlight() {
     <section id="spotlight" className="bg-mist py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="mb-10 max-w-2xl">
-          <span className="text-sm font-semibold uppercase tracking-widest text-gold-600">
+          <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
             Trader spotlight
           </span>
           <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
@@ -91,7 +91,7 @@ export default function Spotlight() {
               </div>
 
               <div className="flex flex-col justify-center p-8 sm:p-12">
-                <QuoteIcon className="h-10 w-10 text-gold" />
+                <QuoteIcon className="h-10 w-10 text-brand" />
                 <blockquote className="mt-5 font-heading text-xl font-semibold leading-relaxed text-navy sm:text-2xl">
                   “{trader.quote}”
                 </blockquote>
@@ -119,7 +119,7 @@ export default function Spotlight() {
                     setIndex(i);
                   }}
                   className={`h-2 rounded-full transition-all ${
-                    i === index ? "w-8 bg-gold" : "w-2 bg-navy/20"
+                    i === index ? "w-8 bg-brand" : "w-2 bg-navy/20"
                   }`}
                 />
               ))}
@@ -129,7 +129,7 @@ export default function Spotlight() {
                 type="button"
                 aria-label="Previous trader"
                 onClick={() => go(-1)}
-                className="grid h-10 w-10 place-items-center rounded-full border border-navy/15 text-navy transition-colors hover:border-gold hover:text-gold"
+                className="grid h-10 w-10 place-items-center rounded-full border border-navy/15 text-navy transition-colors hover:border-brand hover:text-brand"
               >
                 <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none">
                   <path d="m14 6-6 6 6 6" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" />
@@ -139,7 +139,7 @@ export default function Spotlight() {
                 type="button"
                 aria-label="Next trader"
                 onClick={() => go(1)}
-                className="grid h-10 w-10 place-items-center rounded-full border border-navy/15 text-navy transition-colors hover:border-gold hover:text-gold"
+                className="grid h-10 w-10 place-items-center rounded-full border border-navy/15 text-navy transition-colors hover:border-brand hover:text-brand"
               >
                 <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none">
                   <path d="m10 6 6 6-6 6" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" />

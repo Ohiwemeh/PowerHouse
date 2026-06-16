@@ -66,7 +66,7 @@ export default function Aims() {
     <section id="aims" className="relative bg-mist py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="max-w-2xl">
-          <span className="text-sm font-semibold uppercase tracking-widest text-gold-600">
+          <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
             What we do
           </span>
           <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
@@ -90,10 +90,10 @@ export default function Aims() {
               key={title}
               variants={cardVariants}
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="group relative overflow-hidden rounded-2xl border border-navy/10 bg-white/70 p-7 shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1.5 hover:border-gold/40 hover:shadow-xl hover:shadow-navy/10"
+              className="group relative overflow-hidden rounded-2xl border border-navy/10 bg-white/70 p-7 shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-1.5 hover:border-brand/40 hover:shadow-xl hover:shadow-navy/10"
             >
-              <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gold/5 transition-colors duration-300 group-hover:bg-gold/15" />
-              <span className="relative inline-flex h-14 w-14 items-center justify-center rounded-xl bg-navy/5 text-navy transition-colors duration-300 group-hover:bg-navy group-hover:text-gold">
+              <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-brand/5 transition-colors duration-300 group-hover:bg-brand/15" />
+              <span className="relative inline-flex h-14 w-14 items-center justify-center rounded-xl bg-navy/5 text-navy transition-colors duration-300 group-hover:bg-navy group-hover:text-brand">
                 <Icon className="h-7 w-7" />
               </span>
               <h3 className="relative mt-5 font-heading text-xl font-bold text-navy">

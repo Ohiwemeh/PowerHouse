@@ -56,7 +56,7 @@ export default function News() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-2xl">
-            <span className="text-sm font-semibold uppercase tracking-widest text-gold-600">
+            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
               News & updates
             </span>
             <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
@@ -65,7 +65,7 @@ export default function News() {
           </div>
           <a
             href="#news"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-gold-600"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-brand-600"
           >
             View all stories
             <ArrowRightIcon className="h-4 w-4" />
@@ -106,9 +106,9 @@ export default function News() {
                   <span
                     className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${
                       item.image
-                        ? "bg-gold text-navy"
+                        ? "bg-brand text-navy"
                         : dark
-                          ? "bg-gold text-navy"
+                          ? "bg-brand text-navy"
                           : "bg-navy/10 text-navy"
                     }`}
                   >

@@ -20,12 +20,12 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
           <div>
             <div className="flex items-center gap-3">
-              <span className="grid h-11 w-11 place-items-center rounded-lg bg-gold font-display text-2xl text-navy">
+              <span className="grid h-11 w-11 place-items-center rounded-lg bg-brand font-display text-2xl text-navy">
                 PH
               </span>
               <span className="font-heading text-base font-bold uppercase leading-tight tracking-wide">
                 Power House
-                <span className="block text-[11px] font-medium tracking-widest text-gold-400">
+                <span className="block text-[11px] font-medium tracking-widest text-brand-400">
                   Market Traders Initiative
                 </span>
               </span>
@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             {groups.map((g) => (
               <div key={g.title}>
-                <h3 className="font-heading text-sm font-bold uppercase tracking-wider text-gold-400">
+                <h3 className="font-heading text-sm font-bold uppercase tracking-wider text-brand-400">
                   {g.title}
                 </h3>
                 <ul className="mt-4 space-y-3">
@@ -47,7 +47,7 @@ export default function Footer() {
                     <li key={l}>
                       <a
                         href="#"
-                        className="text-sm text-white/65 transition-colors hover:text-gold"
+                        className="text-sm text-white/65 transition-colors hover:text-brand"
                       >
                         {l}
                       </a>
@@ -65,13 +65,13 @@ export default function Footer() {
             All rights reserved.
           </p>
           <div className="flex gap-5 text-xs text-white/50">
-            <a href="#" className="transition-colors hover:text-gold">
+            <a href="#" className="transition-colors hover:text-brand">
               Privacy
             </a>
-            <a href="#" className="transition-colors hover:text-gold">
+            <a href="#" className="transition-colors hover:text-brand">
               Terms
             </a>
-            <a href="#" className="transition-colors hover:text-gold">
+            <a href="#" className="transition-colors hover:text-brand">
               Contact
             </a>
           </div>

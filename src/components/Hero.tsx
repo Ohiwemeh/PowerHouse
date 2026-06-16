@@ -27,9 +27,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-gold-400"
+          className="inline-flex items-center gap-2 rounded-full border border-brand/40 bg-brand/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-400"
         >
-          <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+          <span className="h-1.5 w-1.5 rounded-full bg-brand" />
           Power House Market Traders Initiative
         </motion.span>
 
@@ -40,7 +40,7 @@ export default function Hero() {
           className="mt-6 max-w-3xl font-heading text-5xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl"
         >
           Empowering the{" "}
-          <span className="text-gold">Pulse of Trade.</span>
+          <span className="text-brand">Pulse of Trade.</span>
         </motion.h1>
 
         <motion.p
@@ -62,7 +62,7 @@ export default function Hero() {
         >
           <a
             href="#join"
-            className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5 text-base font-semibold text-navy shadow-xl shadow-gold/20 transition-transform hover:scale-[1.03]"
+            className="group inline-flex items-center justify-center gap-2 rounded-full bg-brand px-7 py-3.5 text-base font-semibold text-navy shadow-xl shadow-brand/20 transition-transform hover:scale-[1.03]"
           >
             Become a Member
             <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
