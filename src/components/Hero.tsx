@@ -49,9 +49,9 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-6 max-w-xl text-lg leading-relaxed text-white/80"
         >
-          We unite, train, and uplift market traders — building stronger
-          businesses, fairer markets, and thriving communities across the
-          continent.
+          We advocate for tax reform that works for every Nigerian —
+sensitizing market traders, mobilizing associations, and
+bridging the gap between grassroots commerce and government policy.
         </motion.p>
 
         <motion.div

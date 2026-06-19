@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 import type { ComponentType, SVGProps } from "react";
 import {
-  TrainingIcon,
+  ShieldIcon,
   GlobeIcon,
   HandshakeIcon,
-  ShieldIcon,
-  GrowthIcon,
+  TrainingIcon,
   CommunityIcon,
+  GrowthIcon,
 } from "./icons";
 
 type Aim = {
@@ -19,40 +19,40 @@ type Aim = {
 
 const aims: Aim[] = [
   {
-    title: "Skills & Training",
+    title: "Tax Reform Advocacy",
     description:
-      "Hands-on workshops in bookkeeping, digital payments, and customer service to sharpen every trader's edge.",
-    Icon: TrainingIcon,
-  },
-  {
-    title: "Market Access",
-    description:
-      "Connecting members to new buyers, suppliers, and regional markets — locally and across borders.",
-    Icon: GlobeIcon,
-  },
-  {
-    title: "Strategic Partnerships",
-    description:
-      "Bridging traders with banks, government, and NGOs to unlock funding and opportunity.",
-    Icon: HandshakeIcon,
-  },
-  {
-    title: "Advocacy & Rights",
-    description:
-      "A united voice protecting fair pricing, safe stalls, and the dignity of every market worker.",
+      "Championing policy reforms that make Nigeria's tax system fair, transparent, and beneficial for every market trader — formal and informal.",
     Icon: ShieldIcon,
   },
   {
-    title: "Business Growth",
+    title: "Nationwide Sensitization",
     description:
-      "Access to micro-finance, savings groups, and tools that turn day-traders into enterprises.",
-    Icon: GrowthIcon,
+      "Reaching traders, haulage associations, and businesses across Nigeria to raise awareness of the new tax laws and what they mean in practice.",
+    Icon: GlobeIcon,
   },
   {
-    title: "Community & Welfare",
+    title: "Trader & Authority Dialogue",
     description:
-      "Solidarity funds, health drives, and a network that supports members through every season.",
+      "Facilitating structured conversations between grassroots traders and government authorities to ensure trader voices shape tax policy.",
+    Icon: HandshakeIcon,
+  },
+  {
+    title: "Tax Education & Information",
+    description:
+      "Disseminating clear, accessible information on tax obligations, benefits, and compliance — so no trader is left in the dark.",
+    Icon: TrainingIcon,
+  },
+  {
+    title: "Grassroots Mobilization",
+    description:
+      "Organizing market traders and associations nationwide through existing market structures to drive inclusive, ground-up tax compliance.",
     Icon: CommunityIcon,
+  },
+  {
+    title: "Diaspora Engagement",
+    description:
+      "Extending advocacy to Nigerians in the diaspora, ensuring tax reform awareness reaches communities beyond Nigeria's borders.",
+    Icon: GrowthIcon,
   },
 ];
 
@@ -67,14 +67,15 @@ export default function Aims() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-            What we do
+            Our Focus
           </span>
           <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-            Our aims, built for real market life
+            Advocating for a fairer tax system
           </h2>
           <p className="mt-4 text-lg text-navy/65">
-            Six pillars that turn everyday trade into lasting prosperity for our
-            members and their communities.
+            PHMTI drives tax reform awareness across Nigeria's formal and
+            informal sectors — so ordinary Nigerians and market traders
+            genuinely benefit from new tax laws.
           </p>
         </div>
 
@@ -104,6 +105,27 @@ export default function Aims() {
               </p>
             </motion.article>
           ))}
+        </motion.div>
+
+        {/* Chairman credit */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-14 flex items-center gap-4 rounded-2xl border border-navy/10 bg-white/70 px-7 py-5 backdrop-blur-md shadow-sm"
+        >
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-navy font-heading text-sm font-bold text-brand">
+            AK
+          </span>
+          <div>
+            <p className="font-heading text-base font-bold text-navy">
+              Alhaji Hamza Adamu Kyari
+            </p>
+            <p className="text-sm text-navy/55">
+              Chairman, Power House Market Traders Initiative
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

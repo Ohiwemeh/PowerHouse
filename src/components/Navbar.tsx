@@ -9,6 +9,7 @@ const links = [
   { label: "Impact", href: "#impact" },
   { label: "Traders", href: "#spotlight" },
   { label: "News", href: "#news" },
+  { label: "Directory", href: "/directory" }
 ];
 
 export default function Navbar() {
@@ -65,7 +66,7 @@ export default function Navbar() {
 
         <div className="hidden md:block">
           <a
-            href="#join"
+            href="/register"
             className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-navy shadow-lg shadow-brand/20 transition-transform hover:scale-105"
           >
             Become a Member
