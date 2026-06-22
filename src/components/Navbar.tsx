@@ -9,7 +9,8 @@ const links = [
   { label: "Impact", href: "#impact" },
   { label: "Traders", href: "#spotlight" },
   { label: "News", href: "#news" },
-  { label: "Directory", href: "/directory" }
+  { label: "Directory", href: "/directory" },
+  { label: "Training", href: "/training" },
 ];
 
 export default function Navbar() {
