@@ -11,7 +11,7 @@ export default function Hero() {
       className="relative flex min-h-[100svh] items-center overflow-hidden"
     >
       <Image
-        src="/images/hero.jpg"
+        src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_16.00.29_hng6vu"
         alt="Traders working together in a bustling market"
         fill
         priority

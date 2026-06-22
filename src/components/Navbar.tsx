@@ -41,15 +41,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#top" className="group flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand font-display text-xl text-navy">
-            PH
-          </span>
-          <span className="font-heading text-sm font-bold uppercase leading-tight tracking-wide text-white">
-            Power House
-            <span className="block text-[10px] font-medium tracking-widest text-brand-400">
-              Market Traders Initiative
-            </span>
-          </span>
+          <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-16_at_08.36.58_1_-removebg-preview_vd9lgg" alt="logo" className="h-20 w-50" />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
