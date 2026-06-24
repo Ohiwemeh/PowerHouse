@@ -6,6 +6,7 @@ import Spotlight from "@/components/Spotlight";
 import News from "@/components/News";
 import JoinCTA from "@/components/JoinCTA";
 import Footer from "@/components/Footer";
+import GalleryPreview from "@/components/GalleryPreview";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Aims />
         <Stats />
         <Spotlight />
+        <GalleryPreview /> 
         <News />
         <JoinCTA />
       </main>

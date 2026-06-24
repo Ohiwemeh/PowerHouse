@@ -45,9 +45,7 @@ export default function LoginPage() {
       >
         {/* Logo */}
         <div className="mb-8 flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-lg bg-navy font-display text-xl text-brand">
-            PH
-          </span>
+           <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_19.49.13-removebg-preview_l95zju" alt="logo" className="h-15 w-25" />
           <span className="font-heading text-sm font-bold uppercase leading-tight tracking-wide text-navy">
             Power House
             <span className="block text-[10px] font-medium tracking-widest text-brand-600">

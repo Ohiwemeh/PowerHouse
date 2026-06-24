@@ -20,9 +20,7 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
           <div>
             <div className="flex items-center gap-3">
-              <span className="grid h-11 w-11 place-items-center rounded-lg bg-brand font-display text-2xl text-navy">
-                PH
-              </span>
+               <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_19.49.13-removebg-preview_l95zju" alt="logo" className="h-15 w-25" />
               <span className="font-heading text-base font-bold uppercase leading-tight tracking-wide">
                 Power House
                 <span className="block text-[11px] font-medium tracking-widest text-brand-400">

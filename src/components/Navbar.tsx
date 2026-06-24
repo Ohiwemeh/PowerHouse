@@ -4,13 +4,12 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const links = [
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Our Aims", href: "#aims" },
-  { label: "Impact", href: "#impact" },
-  { label: "Traders", href: "#spotlight" },
-  { label: "News", href: "#news" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Directory", href: "/directory" },
   { label: "Training", href: "/training" },
+  { label: "News", href: "#news" },
 ];
 
 export default function Navbar() {
@@ -40,8 +39,8 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-        <a href="#top" className="group flex items-center gap-2.5">
-          <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-16_at_08.36.58_1_-removebg-preview_vd9lgg" alt="logo" className="h-20 w-50" />
+        <a href="/" className="group flex items-center gap-2.5">
+          <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_19.49.13-removebg-preview_l95zju" alt="logo" className="h-15 w-25" />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
@@ -57,7 +56,13 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="/login"
+            className="text-sm font-medium text-white/70 hover:text-white transition-colors"
+          >
+            Login
+          </a>
           <a
             href="/register"
             className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-navy shadow-lg shadow-brand/20 transition-transform hover:scale-105"
@@ -115,7 +120,9 @@ export default function Navbar() {
               initial="hidden"
               animate="visible"
               variants={{
-                visible: { transition: { staggerChildren: 0.07, delayChildren: 0.1 } },
+                visible: {
+                  transition: { staggerChildren: 0.07, delayChildren: 0.1 },
+                },
               }}
               className="flex flex-1 flex-col justify-center gap-2 px-6"
             >
@@ -138,13 +145,20 @@ export default function Navbar() {
               ))}
             </motion.ul>
 
-            <div className="px-6 pb-10">
+            <div className="px-6 pb-10 flex flex-col gap-3">
               <a
-                href="#join"
+                href="/register"
                 onClick={() => setOpen(false)}
                 className="block rounded-full bg-brand px-6 py-4 text-center text-base font-semibold text-navy"
               >
                 Become a Member
+              </a>
+              <a
+                href="/login"
+                onClick={() => setOpen(false)}
+                className="block rounded-full border border-white/20 px-6 py-4 text-center text-base font-semibold text-white"
+              >
+                Member Login
               </a>
             </div>
           </motion.div>

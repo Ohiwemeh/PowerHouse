@@ -21,6 +21,11 @@ const navItems = [
     href: "/admin/dues",
     icon: "M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z",
   },
+  {
+  label: "Gallery",
+  href: "/admin/gallery",
+  icon: "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z",
+},
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
@@ -68,9 +73,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <aside className="hidden md:flex w-60 flex-col bg-navy-900 bg-[#11161f] text-white fixed inset-y-0 left-0 z-30">
         <div className="px-5 py-5 border-b border-white/10">
           <div className="flex items-center gap-2.5">
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-brand font-display text-base text-navy">
-              PH
-            </span>
+            <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_19.49.13-removebg-preview_l95zju" alt="logo" className="h-15 w-25" />
             <div>
               <p className="font-heading text-xs font-bold uppercase tracking-wide text-white">
                 Admin Panel
