@@ -10,10 +10,10 @@ type Stat = {
 };
 
 const stats: Stat[] = [
-  { value: 1000, suffix: "+", label: "Registered Traders" },
+  { value: 1000000, suffix: "+", label: "Registered Traders" },
   { value: 50, suffix: "+", label: "Training Workshops" },
-  { value: 12, label: "Strategic Partnerships" },
-  { value: 8, label: "Markets Served" },
+  { value: 20, label: "Strategic Partnerships" },
+  { value: 300, suffix: "+", label: "Markets Served" },
 ];
 
 function CountUp({ value, suffix }: { value: number; suffix?: string }) {
