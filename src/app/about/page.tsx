@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Leadership from "@/components/Leadership";
 
 const governanceLevels = [
   {
@@ -128,7 +129,7 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-
+            <Leadership/>
           {/* Organogram */}
           <div className="mb-14">
             <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">

@@ -7,6 +7,7 @@ import News from "@/components/News";
 import JoinCTA from "@/components/JoinCTA";
 import Footer from "@/components/Footer";
 import GalleryPreview from "@/components/GalleryPreview";
+import Leadership from "@/components/Leadership";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Aims />
+        <Leadership/>
         <Stats />
         <Spotlight />
         <GalleryPreview /> 

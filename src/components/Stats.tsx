@@ -14,7 +14,8 @@ const stats: Stat[] = [
   { value: 50, suffix: "+", label: "Training Workshops" },
   { value: 20, label: "Strategic Partnerships" },
   { value: 300, suffix: "+", label: "Markets Served" },
-];
+  { value: 774, label: "Local Governments" },
+];744
 
 function CountUp({ value, suffix }: { value: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
