@@ -20,7 +20,7 @@ const leaders: Leader[] = [
   },
   {
     name: "Engr. Ernest Ikechukwu Nwabuko",
-    role: "BSc Applied Technology, BYU-Idaho, USA, FCA.",
+    role: "National Secretary",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782828818/WhatsApp_Image_2026-06-30_at_14.50.26_k2lihz.jpg",
   },
   {
