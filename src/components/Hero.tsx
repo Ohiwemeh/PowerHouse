@@ -30,17 +30,17 @@ export default function Hero() {
           className="inline-flex items-center gap-2 rounded-full border border-brand/40 bg-brand/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-400"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-brand" />
-          Power House Market Traders Initiative
+          Power House Harmonised Traders And Tax Advocacy Initiative
         </motion.span>
 
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="mt-6 max-w-3xl font-heading text-5xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl"
+          className="mt-6 max-w-1xl font-heading text-5xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl"
         >
-          Empowering the{" "}
-          <span className="text-brand">Pulse of Trade.</span>
+          ...Creating a{" "}
+          <span className="text-brand">Tax-Friendly Environment</span>
         </motion.h1>
 
         <motion.p

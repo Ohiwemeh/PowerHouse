@@ -71,7 +71,7 @@ export default function GalleryPage() {
               Gallery
             </span>
             <h1 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-              PHMTI in action
+              PHHTTAI in action
             </h1>
             <p className="mt-3 max-w-xl text-base text-navy/60">
               Photos and videos from our advocacy drives, workshops, and community events across Nigeria.

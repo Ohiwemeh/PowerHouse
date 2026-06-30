@@ -8,7 +8,7 @@ const governanceLevels = [
     title: "Board of Trustees (BOT)",
     description: "Highest decision-making body of the organization",
     roles: [
-      { title: "Chairman, PHMTI", note: "Overall head of the organization" },
+      { title: "Chairman, PHHTTAI", note: "Overall head of the organization" },
     ],
     color: "bg-brand text-navy",
     borderColor: "border-brand/30",
@@ -44,9 +44,9 @@ const governanceLevels = [
     title: "State & LGA Structure",
     description: "Reporting under Commissioners",
     roles: [
-      { title: "State Executive Committee", note: "Manages PHMTI affairs at state level" },
+      { title: "State Executive Committee", note: "Manages PHHTTAI affairs at state level" },
       { title: "Senatorial District Coordinators", note: "Coordinate activities across senatorial zones" },
-      { title: "LGA Coordinators", note: "Manage PHMTI operations at LGA level" },
+      { title: "LGA Coordinators", note: "Manage PHHTTAI operations at LGA level" },
     ],
     color: "bg-mist-200 text-navy",
     borderColor: "border-navy/10",
@@ -93,34 +93,38 @@ export default function AboutPage() {
           {/* Header */}
           <div className="mb-14 max-w-2xl">
             <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-              About PHMTI
+              About PHHTTAI
             </span>
             <h1 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
               Who we are
             </h1>
             <p className="mt-4 text-base leading-relaxed text-navy/65">
-              Power House Market Traders Initiative (PHMTI) is an advocacy group promoting
+              Power House Harmonised Traders And Tax Advocacy Initiative (PHHTTAI) is an advocacy group promoting
               tax reform and awareness among Nigerians and the diaspora. Chaired by{" "}
               <span className="font-semibold text-navy">Alhaji Hamza Adamu Kyari</span>,
-              PHMTI drives tax reform across Nigeria&apos;s formal and informal sectors —
+              PHHTTAI drives tax reform across Nigeria&apos;s formal and informal sectors —
               reaching market traders, associations, and businesses nationwide.
             </p>
           </div>
 
           {/* Mission cards */}
-          <div className="mb-16 grid gap-5 sm:grid-cols-3">
+          <div className="mb-16 grid gap-5 sm:grid-cols-2">
             {[
               {
                 title: "Our Mission",
-                text: "To advocate for a fair, transparent tax system that benefits ordinary Nigerians — especially market traders and informal sector workers.",
+                text: "To complement Government efforts by providing nationwide taxpayer education, grassroots sensitization, compliance advocacy, stakeholder mobilization, and technology-driven public engagement programmes that support national economic development.",
               },
               {
-                title: "Our Reach",
-                text: "Mobilizing market traders, haulage associations, and business groups nationwide through existing market structures.",
+                title: "Our vision",
+                text: "To become Nigeria's foremost stakeholder engagement and taxpayer advocacy organization, promoting voluntary tax compliance, public confidence, and sustainable revenue mobilization through education, innovation, and strategic partnerships in indirect tax compliance across Nigeria's informal sector.",
               },
               {
                 title: "Our Approach",
                 text: "Sensitization, dialogue, and grassroots compliance — bridging the gap between government tax policy and everyday traders.",
+              },
+              {
+                title: "Our Motto",
+                text: "...Creating a Tax-Friendly Environment. The motto reflects the Initiative's conviction that sustainable tax compliance is best achieved through education, trust, transparency, cooperation, and mutual respect between Government and taxpayers.",
               },
             ].map((c) => (
               <div key={c.title} className="rounded-2xl border border-navy/10 bg-white p-6 shadow-sm">
@@ -234,7 +238,7 @@ export default function AboutPage() {
                 Alhaji Hamza Adamu Kyari
               </p>
               <p className="text-sm text-navy/60">
-                Chairman, Power House Market Traders Initiative (PHMTI)
+                Chairman, Power House Harmonised Traders And Tax Advocacy Initiative (PHHTTAI)
               </p>
               <p className="mt-1 text-xs text-navy/45">
                 Chairman of the Board of Trustees — Overall head of the organization

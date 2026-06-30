@@ -160,7 +160,7 @@ function WorkshopCard({ workshop }: { workshop: Workshop }) {
             </a>
           ) : (
             <a
-              href="mailto:info@phmti.org"
+              href="mailto:info@PHHTTAI.org"
               className="block w-full rounded-full bg-navy py-2.5 text-center text-xs font-semibold text-white transition-all hover:bg-navy/90"
             >
               Register Interest
@@ -407,7 +407,7 @@ export default function TrainingPage() {
                 Want to attend a workshop?
               </h2>
               <p className="mt-2 text-sm text-white/65 max-w-sm mx-auto">
-                Become a PHMTI member to get notified of new sessions and access
+                Become a PHHTTAI member to get notified of new sessions and access
                 exclusive member-only training materials.
               </p>
               <Link

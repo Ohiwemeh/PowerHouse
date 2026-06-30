@@ -14,7 +14,7 @@ type Leader = {
 const leaders: Leader[] = [
   {
     name: "Alhaji Hamza Adamu Kyari",
-    role: "Chairman, PHMTI",
+    role: "Chairman, PHHTTAI",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_10.18.29_kau8fe.jpg",
     highlight: true,
   },
@@ -23,11 +23,20 @@ const leaders: Leader[] = [
     role: "National Director of Administration",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_10.04.56_lmufqm.jpg",
   },
-
+  {
+    name: "Engr Melody E. Omorodion ",
+    role: "Asst. National Director of Administration.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
+  },
   {
     name: "Captain Cletus Ukoh",
     role: "Vice Chairman, South",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.05_jakfsn.jpg",
+  },
+  {
+    name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
+    role: "Zonal Director, South West",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
   },
   {
     name: "Timothy Enoch",
@@ -109,7 +118,7 @@ export default function Leadership() {
               The team driving reform
             </h2>
             <p className="mt-3 text-base text-navy/60">
-              Meet the National Working Committee leading PHMTI's advocacy for
+              Meet the National Working Committee leading PHHTTAI's advocacy for
               tax reform across Nigeria.
             </p>
           </div>

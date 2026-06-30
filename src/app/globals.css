@@ -2,14 +2,14 @@
 
 @theme {
   /* Brand palette */
-  --color-navy: #1a202c;
-  --color-navy-700: #232b3a;
-  --color-navy-800: #1a202c;
-  --color-navy-900: #11161f;
+  --color-navy: #052e16;
+  --color-navy-700: #15803d;
+  --color-navy-800: #166534;
+  --color-navy-900: #14532d;
 
   /* Company colors: royal blue and white */
-  --color-royal-blue: #4169e1;
-  --color-royal-blue-700: #355fd1;
+  --color-green: #16a34a;
+  --color-green-700: #15803d;
   --color-white: #ffffff;
 
   --color-gold: #f59e0b;
@@ -17,16 +17,16 @@
   --color-gold-400: #fbbf24;
 
   /* Brand colors map to royal blue for all components */
-  --color-brand: var(--color-royal-blue);
-  --color-brand-400: #5e7fff;
-  --color-brand-600: #2d52d4;
+  --color-brand: var(--color-green);
+ --color-brand-400: #22c55e;
+--color-brand-600: #16a34a;
 
-  --color-mist: #f8fafc;
-  --color-mist-200: #eef2f7;
+  --color-mist: #f0fdf4;
+--color-mist-200: #dcfce7;
 
-  /* Use white as the primary background and royal blue as brand foreground */
+  /* Use white as the primary background and green as brand foreground */
   --color-background: var(--color-white);
-  --color-foreground: var(--color-royal-blue);
+  --color-foreground: var(--color-green);
 
   /* Typography */
   --font-heading: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;

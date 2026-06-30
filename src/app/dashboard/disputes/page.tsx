@@ -202,7 +202,7 @@ function TicketDetail({
       {dispute.admin_response ? (
         <div className="rounded-xl bg-brand/5 border border-brand/20 p-4">
           <p className="text-xs font-semibold uppercase tracking-wide text-brand-600 mb-2">
-            Response from PHMTI
+            Response from PHHTTAI
           </p>
           <p className="text-sm leading-relaxed text-navy/75">
             {dispute.admin_response}

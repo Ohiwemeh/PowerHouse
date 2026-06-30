@@ -218,7 +218,7 @@ export default function DuesPage() {
                   You have {overdueCount} overdue payment{overdueCount !== 1 ? "s" : ""}
                 </p>
                 <p className="mt-0.5 text-xs text-red-600">
-                  Please contact the PHMTI office to settle outstanding dues and
+                  Please contact the PHHTTAI office to settle outstanding dues and
                   keep your membership active.
                 </p>
               </div>
@@ -395,10 +395,10 @@ export default function DuesPage() {
                   {(due.status === "overdue" || due.status === "unpaid") && (
                     <div className="mt-4 flex items-center justify-between rounded-xl bg-mist border border-navy/8 px-4 py-3">
                       <p className="text-xs text-navy/55">
-                        Contact the PHMTI office to make payment
+                        Contact the PHHTTAI office to make payment
                       </p>
                       <a
-                        href="mailto:dues@phmti.org"
+                        href="mailto:dues@PHHTTAI.org"
                         className="text-xs font-semibold text-brand-600 hover:underline shrink-0"
                       >
                         Contact us
@@ -439,10 +439,10 @@ export default function DuesPage() {
                   Use your full name and member ID as payment reference, then
                   notify the office via{" "}
                   <a
-                    href="mailto:dues@phmti.org"
+                    href="mailto:dues@PHHTTAI.org"
                     className="text-brand-600 hover:underline"
                   >
-                    dues@phmti.org
+                    dues@PHHTTAI.org
                   </a>
                 </p>
               </div>

@@ -44,7 +44,7 @@ export default function GalleryPreview() {
               Gallery
             </span>
             <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-              PHMTI in action
+              PHHTTAI in action
             </h2>
             <p className="mt-3 text-base text-navy/60">
               Moments from our advocacy drives, workshops, and community events across Nigeria.

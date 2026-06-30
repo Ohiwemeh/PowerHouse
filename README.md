@@ -1,6 +1,6 @@
 # Power House — Market Traders Initiative
 
-Marketing website for the **Power House Market Traders Initiative**, an association
+Marketing website for the **Power House Harmonised Traders And Tax Advocacy Initiative**, an association
 empowering market traders through training, market access, advocacy, and community
 support.
 
@@ -19,7 +19,7 @@ professional, but vibrant and accessible.
 
 ## Sections
 
-- **Hero** — full-bleed darkened market image, "Empowering the Pulse of Trade", gold + outline CTAs
+- **Hero** — full-bleed darkened market image, "...Creating a", gold + outline CTAs
 - **Aims** — 3×2 glassmorphism card grid with duotone icons, hover lift + accent recolor
 - **Stats strip** — deep navy band with animated count-up figures
 - **Trader Spotlight** — auto-playing testimonial carousel

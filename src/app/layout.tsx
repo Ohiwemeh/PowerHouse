@@ -22,9 +22,9 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "Power House — Empowering the Pulse of Trade",
+  title: "Power House — ...Creating a tax Friendly Environment",
   description:
-    "Power House Market Traders Initiative empowers market traders through training, market access, and strategic partnerships across Africa's vibrant trade communities.",
+    "Power House Harmonised Traders And Tax Advocacy Initiative empowers market traders through training, market access, and strategic partnerships across Africa's vibrant trade communities.",
   keywords: [
     "Power House",
     "market traders",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "trader empowerment",
   ],
   openGraph: {
-    title: "Power House — Empowering the Pulse of Trade",
+    title: "Power House — ...Creating a tax Friendly Environment",
     description:
       "Training, market access, and strategic partnerships for market traders.",
     type: "website",

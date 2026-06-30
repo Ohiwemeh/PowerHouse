@@ -180,7 +180,7 @@ export default function DirectoryPage() {
               Member Directory
             </span>
             <h1 className="mt-3 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-              Find a PHMTI trader
+              Find a PHHTTAI trader
             </h1>
             <p className="mt-3 max-w-xl text-base text-navy/60">
               Browse our network of active members — market traders, business owners,
@@ -301,7 +301,7 @@ export default function DirectoryPage() {
               Not listed yet?
             </h2>
             <p className="mt-2 text-sm text-white/65 max-w-sm mx-auto">
-              Join PHMTI and get your business in front of thousands of traders, buyers, and partners.
+              Join PHHTTAI and get your business in front of thousands of traders, buyers, and partners.
             </p>
             <Link
               href="/register"

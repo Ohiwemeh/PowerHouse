@@ -125,7 +125,7 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row">
           <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} Power House Market Traders Initiative. All rights reserved.
+            © {new Date().getFullYear()} Power House Harmonised Traders And Tax Advocacy Initiative. All rights reserved.
           </p>
           <div className="flex gap-5 text-xs text-white/50">
             <a href="#" className="transition-colors hover:text-brand">Privacy</a>

@@ -73,7 +73,7 @@ export default function Aims() {
             Advocating for a fairer tax system
           </h2>
           <p className="mt-4 text-lg text-navy/65">
-            PHMTI drives tax reform awareness across Nigeria's formal and
+            PHHTTAI drives tax reform awareness across Nigeria's formal and
             informal sectors — so ordinary Nigerians and market traders
             genuinely benefit from new tax laws.
           </p>
@@ -123,7 +123,7 @@ export default function Aims() {
               Alhaji Hamza Adamu Kyari
             </p>
             <p className="text-sm text-navy/55">
-              Chairman, Power House Market Traders Initiative
+              Chairman, Power House Harmonised Traders And Tax Advocacy Initiative
             </p>
           </div>
         </motion.div>
