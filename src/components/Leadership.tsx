@@ -19,6 +19,11 @@ const leaders: Leader[] = [
     highlight: true,
   },
   {
+    name: "Engr. Ernest Ikechukwu Nwabuko",
+    role: "BSc Applied Technology, BYU-Idaho, USA, FCA.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782828818/WhatsApp_Image_2026-06-30_at_14.50.26_k2lihz.jpg",
+  },
+  {
     name: "Dr Dominion Adie",
     role: "National Director of Administration",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_10.04.56_lmufqm.jpg",
@@ -53,6 +58,12 @@ const leaders: Leader[] = [
     role: "National Director of Complaints",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.41_fznhcc.jpg",
   },
+  {
+    name: "Amb. G T. Joseph Gbenga",
+    role: "National Advisor/Spokesman",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
+  },
+  
 ];
 
 function LeaderCard({ leader, index }: { leader: Leader; index: number }) {

@@ -38,11 +38,21 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-        <a href="/" className="group flex items-center gap-2.5">
-          <img src="https://res.cloudinary.com/dfdtcwwh3/image/upload/f_auto,q_auto/WhatsApp_Image_2026-06-22_at_19.49.13-removebg-preview_l95zju" alt="logo" className="h-15 w-25" />
-        </a>
-
+      <nav className="mx-auto mb-4 flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
+       <a href="/" className="group flex items-center gap-2.5">
+  <div className="flex flex-col items-center">
+    <img
+      src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829085/WhatsApp_Image_2026-06-30_at_14.40.53-removebg-preview_selue8.png"
+      alt="logo"
+      className="h-20 w-auto object-contain"
+    />
+    <img
+      src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782828818/WhatsApp_Image_2026-06-30_at_15.09.36_bvllkv.jpg"
+      alt="logo"
+      className="h-10 w-auto object-contain"
+    />
+  </div>
+</a>
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
             <li key={l.href}>
