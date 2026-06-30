@@ -25,7 +25,7 @@ export default function JoinCTA() {
         </p>
         <div className="relative mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a
-            href="#join"
+            href="/register"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-brand px-7 py-3.5 text-base font-semibold text-navy shadow-xl shadow-brand/20 transition-transform hover:scale-[1.03]"
           >
             Become a Member

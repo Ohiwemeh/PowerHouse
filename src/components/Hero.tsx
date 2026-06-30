@@ -61,7 +61,7 @@ bridging the gap between grassroots commerce and government policy.
           className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center"
         >
           <a
-            href="#join"
+            href="/register"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-brand px-7 py-3.5 text-base font-semibold text-navy shadow-xl shadow-brand/20 transition-transform hover:scale-[1.03]"
           >
             Become a Member
