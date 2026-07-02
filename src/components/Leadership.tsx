@@ -43,6 +43,11 @@ const leaders: Leader[] = [
     role: "National Director Stakeholders Collaboration",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.05.43_cnhowr.jpg",
   },
+   {
+    name: "Ojo Monday",
+    role: "National Director of Finance",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782999136/WhatsApp_Image_2026-07-02_at_12.12.30_qvqoj9.jpg",
+  },
   {
     name: "Hamza Mukhtar",
     role: "Vice Chairman North",
@@ -64,16 +69,12 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384854/WhatsApp_Image_2026-06-25_at_09.29.42_elsg7c.jpg",
   },
   {
-    name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
-    role: "Zonal Director, South West",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
+    name: "Engr Melody E. Omorodion ",
+    role: "Asst. National Director of Administration.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
   },
+  
   {
-    name: "Honourable Chidi Sam Wike",
-    role: " Director South South",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782988523/WhatsApp_Image_2026-07-02_at_11.16.28_twprzn.jpg",
-  },
-   {
     name: "Prince Oyibo Jonathan",
     role: "National PRO",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.06.43_smhorb.jpg",
@@ -84,10 +85,16 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
   },
   {
-    name: "Engr Melody E. Omorodion ",
-    role: "Asst. National Director of Administration.",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
+    name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
+    role: "Zonal Director, South West",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
   },
+  {
+    name: "Honourable Chidi Sam Wike",
+    role: " Director South South",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782988523/WhatsApp_Image_2026-07-02_at_11.16.28_twprzn.jpg",
+  },
+   
   
   
  
