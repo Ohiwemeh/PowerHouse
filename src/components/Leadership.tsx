@@ -63,6 +63,26 @@ const leaders: Leader[] = [
     role: "National Advisor/Spokesman",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
   },
+  {
+    name: "Eriye felicia",
+    role: "Director of Social Welfare",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_12.45.06_mfhvfh.jpg",
+  },
+  {
+    name: "Hamza Mukhtar",
+    role: "Vice Chairman North",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985545/WhatsApp_Image_2026-07-01_at_18.04.39_ydom90.jpg",
+  },
+  {
+    name: "Ben Akpa",
+    role: "National Director Stakeholders Collaboration",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.05.43_cnhowr.jpg",
+  },
+  {
+    name: "Prince Oyibo Jonathan",
+    role: "National PRO",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.06.43_smhorb.jpg",
+  },
   
 ];
 
