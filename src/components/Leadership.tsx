@@ -29,44 +29,19 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_10.04.56_lmufqm.jpg",
   },
   {
-    name: "Engr Melody E. Omorodion ",
-    role: "Asst. National Director of Administration.",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
-  },
-  {
-    name: "Captain Cletus Ukoh",
-    role: "Vice Chairman, South",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.05_jakfsn.jpg",
-  },
-  {
-    name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
-    role: "Zonal Director, South West",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
-  },
-  {
     name: "Timothy Enoch",
     role: "National Director of Conflict & Resolution",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.27.17_m6djp4.jpg",
-  },
-  {
-    name: "Rev Dr Abraham Donubari Vin-Azor",
-    role: "Director, Policy & Implementation",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384854/WhatsApp_Image_2026-06-25_at_09.29.42_elsg7c.jpg",
   },
   {
     name: "Gowon Elaigwu",
     role: "National Director of Complaints",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.41_fznhcc.jpg",
   },
-  {
-    name: "Amb. G T. Joseph Gbenga",
-    role: "National Advisor/Spokesman",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
-  },
-  {
-    name: "Eriye felicia",
-    role: "Director of Social Welfare",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_12.45.06_mfhvfh.jpg",
+   {
+    name: "Ben Akpa",
+    role: "National Director Stakeholders Collaboration",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.05.43_cnhowr.jpg",
   },
   {
     name: "Hamza Mukhtar",
@@ -74,15 +49,53 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985545/WhatsApp_Image_2026-07-01_at_18.04.39_ydom90.jpg",
   },
   {
-    name: "Ben Akpa",
-    role: "National Director Stakeholders Collaboration",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.05.43_cnhowr.jpg",
+    name: "Captain Cletus Ukoh",
+    role: "Vice Chairman, South",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.05_jakfsn.jpg",
+  },
+   {
+    name: "Eriye felicia",
+    role: "Director of Social Welfare",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_12.45.06_mfhvfh.jpg",
   },
   {
+    name: "Rev Dr Abraham Donubari Vin-Azor",
+    role: "Director, Policy & Implementation",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384854/WhatsApp_Image_2026-06-25_at_09.29.42_elsg7c.jpg",
+  },
+  {
+    name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
+    role: "Zonal Director, South West",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
+  },
+  {
+    name: "Honourable Chidi Sam Wike",
+    role: " Director South South",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782988523/WhatsApp_Image_2026-07-02_at_11.16.28_twprzn.jpg",
+  },
+   {
     name: "Prince Oyibo Jonathan",
     role: "National PRO",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.06.43_smhorb.jpg",
+  }, 
+  {
+    name: "Amb. G T. Joseph Gbenga",
+    role: "National Advisor/Spokesman",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
   },
+  {
+    name: "Engr Melody E. Omorodion ",
+    role: "Asst. National Director of Administration.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
+  },
+  
+  
+ 
+  
+ 
+  
+ 
+ 
   
 ];
 
