@@ -53,11 +53,7 @@ const leaders: Leader[] = [
     role: "Vice Chairman North",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985545/WhatsApp_Image_2026-07-01_at_18.04.39_ydom90.jpg",
   },
-  {
-    name: "Captain Cletus Ukoh",
-    role: "Vice Chairman South",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.30.05_jakfsn.jpg",
-  },
+  
    {
     name: "Eriye felicia",
     role: "Director of Social Welfare",
