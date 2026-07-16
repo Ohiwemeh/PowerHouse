@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Leadership from "@/components/Leadership";
+import GovernanceTabs from "@/components/GovernanceTabs";
 
 export default function AboutPage() {
   return (
@@ -55,56 +56,8 @@ export default function AboutPage() {
 
           <Leadership />
 
-          {/* Organogram */}
-          <div className="mb-14">
-            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-              Organogram
-            </span>
-            <h2 className="mt-3 font-heading text-2xl font-extrabold text-navy sm:text-3xl mb-6">
-              Governance structure
-            </h2>
-            <div className="overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-sm">
-              <img
-                src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782831924/WhatsApp_Image_2026-06-30_at_14.40.54_1_byowzj.jpg"
-                alt="PHHTTAI Governance Structure Organogram"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-
-          {/* Anti-Bribery & Anti-Corruption Policy */}
-          <div className="mb-14">
-            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-              Governance &amp; Conduct
-            </span>
-            <h2 className="mt-3 font-heading text-2xl font-extrabold text-navy sm:text-3xl mb-6">
-              Anti-Bribery and Anti-Corruption Policy
-            </h2>
-            <div className="overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-sm">
-              <img
-                src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782830491/WhatsApp_Image_2026-06-30_at_15.30.56_nm8dvd.jpg"
-                alt="PHHTTAI Anti-Bribery and Anti-Corruption Policy"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-
-          {/* Official Pledge */}
-          <div className="mb-14">
-            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
-              Code of Conduct
-            </span>
-            <h2 className="mt-3 font-heading text-2xl font-extrabold text-navy sm:text-3xl mb-6">
-              The PHHTTAI Pledge
-            </h2>
-            <div className="overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-sm">
-              <img
-                src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782830492/WhatsApp_Image_2026-06-30_at_15.30.48_lzqrb3.jpg"
-                alt="PHHTTAI Official Pledge"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
+          {/* Governance tabs: Organogram / Anti-Bribery Policy / Pledge / State Structure */}
+          <GovernanceTabs />
 
           {/* Chairman callout */}
           <div className="rounded-2xl border border-brand/20 bg-brand/5 px-7 py-6 flex items-center gap-5">

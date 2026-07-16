@@ -66,18 +66,18 @@ export default function GalleryPreview() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
           transition={{ staggerChildren: 0.08 }}
-          className="grid grid-cols-2 gap-4 sm:grid-cols-3"
+         className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3"
         >
           {items.map((item, i) => (
-            <motion.div
-              key={item.id}
-              variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className={`group relative overflow-hidden rounded-2xl bg-mist ${
-                i === 0 ? "col-span-2 row-span-2 sm:col-span-1 sm:row-span-2" : ""
-              }`}
-              style={{ aspectRatio: i === 0 ? "auto" : "4/3", minHeight: i === 0 ? "300px" : "180px" }}
-            >
+           <motion.div
+  key={item.id}
+  variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
+  transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+  className={`group relative w-full min-w-0 overflow-hidden rounded-2xl bg-mist ${
+    i === 0 ? "col-span-2 row-span-2 sm:col-span-1 sm:row-span-2" : ""
+  }`}
+  style={{ aspectRatio: i === 0 ? "auto" : "4/3", minHeight: i === 0 ? "300px" : "180px" }}
+>
               <Image
                 src={item.url}
                 alt={item.title}

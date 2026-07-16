@@ -1,5 +1,5 @@
 "use client";
-
+import Link from 'next/link'
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -32,27 +32,38 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      className={`fixed inset-x-0 top-0 z-50 h-20 w-full overflow-x-hidden transition-all duration-300 ${
         scrolled
           ? "bg-navy/90 backdrop-blur-md shadow-lg shadow-navy/10"
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto mb-4 flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-       <a href="/" className="group flex items-center gap-2.5">
-  <div className="flex flex-col items-center">
-    <img
-      src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829085/WhatsApp_Image_2026-06-30_at_14.40.53-removebg-preview_selue8.png"
-      alt="logo"
-      className="h-20 w-auto object-contain"
-    />
-    <img
-      src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782828818/WhatsApp_Image_2026-06-30_at_15.09.36_bvllkv.jpg"
-      alt="logo"
-      className="h-10 w-auto object-contain"
-    />
-  </div>
-</a>
+      <nav className="mx-auto flex h-full max-w-7xl items-center justify-between gap-3 px-4 ">
+        {/* Stacked logo lockup */}
+        <Link
+          href="/"
+          className="group flex min-w-0 shrink-0 items-center gap-3"
+        >
+          <span className="flex h-14 w-14 flex-col items-center justify-center rounded-xl bg-white/5 p-1.5 ring-1 ring-white/10 transition-colors group-hover:bg-white/10 sm:h-16 sm:w-16">
+            <img
+              src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829085/WhatsApp_Image_2026-06-30_at_14.40.53-removebg-preview_selue8.png"
+              alt="Power House icon"
+              className="h-6 w-auto max-w-full object-contain sm:h-7"
+              style={{ mixBlendMode: "multiply" }}
+            />
+            <span className="mt-0.5 h-px w-6 bg-white/15" />
+            <img
+              src="https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782828818/WhatsApp_Image_2026-06-30_at_15.09.36_bvllkv.jpg"
+              alt="Power House wordmark"
+              className="mt-0.5 h-5 w-auto max-w-full object-contain sm:h-6"
+              style={{ mixBlendMode: "multiply" }}
+            />
+          </span>
+          <span className="hidden font-heading text-sm font-bold uppercase leading-tight tracking-wide text-white sm:block">
+            PHHTTAI
+          </span>
+        </Link>
+
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
             <li key={l.href}>
@@ -66,10 +77,10 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden items-center gap-3 md:flex">
           <a
             href="/login"
-            className="text-sm font-medium text-white/70 hover:text-white transition-colors"
+            className="text-sm font-medium text-white/70 transition-colors hover:text-white"
           >
             Login
           </a>
@@ -86,7 +97,7 @@ export default function Navbar() {
           aria-label="Open menu"
           aria-expanded={open}
           onClick={() => setOpen(true)}
-          className="flex h-10 w-10 items-center justify-center rounded-lg text-white md:hidden"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-white md:hidden"
         >
           <span className="relative block h-4 w-6">
             <span className="absolute left-0 top-0 h-0.5 w-6 bg-current" />
@@ -155,7 +166,7 @@ export default function Navbar() {
               ))}
             </motion.ul>
 
-            <div className="px-6 pb-10 flex flex-col gap-3">
+            <div className="flex flex-col gap-3 px-6 pb-10">
               <a
                 href="/register"
                 onClick={() => setOpen(false)}

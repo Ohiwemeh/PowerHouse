@@ -23,16 +23,17 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-tr from-navy via-navy/60 to-transparent" />
 
       <div className="relative mx-auto w-full max-w-7xl px-5 pt-28 pb-16 sm:px-8">
-        <motion.span
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 rounded-full border border-brand/40 bg-brand/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-400"
-        >
-          <span className="h-1.5 w-1.5 rounded-full bg-brand" />
-          Power House Harmonised Traders And Tax Advocacy Initiative
-        </motion.span>
-
+       <motion.span
+  initial={{ opacity: 0, y: 16 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  className="inline-flex max-w-full items-start gap-2 rounded-2xl border border-brand/40 bg-brand/10 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-brand-400 sm:max-w-fit sm:items-center sm:rounded-full sm:py-1.5"
+>
+  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand sm:mt-0" />
+  <span className="text-wrap">
+    Power House Harmonised Traders And Tax Advocacy Initiative
+  </span>
+</motion.span>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

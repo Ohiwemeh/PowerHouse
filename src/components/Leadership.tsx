@@ -53,7 +53,6 @@ const leaders: Leader[] = [
     role: "Vice Chairman North",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985545/WhatsApp_Image_2026-07-01_at_18.04.39_ydom90.jpg",
   },
-  
    {
     name: "Eriye felicia",
     role: "Director of Social Welfare",
@@ -69,12 +68,17 @@ const leaders: Leader[] = [
     role: "Asst. National Director of Administration.",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_u4vecf.jpg",
   },
-  
+  {
+    name: "Janet Bennet Dangana",
+    role: "Assistant National Secretary",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107409/Screenshot_2026-07-15_101923_rxmgis.png",
+  },
+
   {
     name: "Prince Oyibo Jonathan",
     role: "National PRO",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985544/WhatsApp_Image_2026-07-01_at_18.06.43_smhorb.jpg",
-  }, 
+  },
   {
     name: "Amb. G T. Joseph Gbenga",
     role: "National Advisor/Spokesman",
@@ -86,20 +90,49 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
   },
   {
+    name: "Adamu A. Aminu",
+    role: "North East Director.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107393/WhatsApp_Image_2026-07-03_at_09.22.43_qd0utq.jpg",
+  },
+  {
     name: "Honourable Chidi Sam Wike",
     role: " Director South South",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782988523/WhatsApp_Image_2026-07-02_at_11.16.28_twprzn.jpg",
   },
-   
-  
-  
- 
-  
- 
-  
- 
- 
-  
+];
+
+// State Commissioners get their own subsection below the main leadership grid.
+const commissioners: Leader[] = [
+  {
+    name: "AJEWOLE OLUSOLA TOSIN ",
+    role: "LAGOS STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107393/WhatsApp_Image_2026-07-03_at_12.49.04_c7epvt.jpg",
+  },
+  {
+    name: "ADETAYO FUNMITO ADESEYE",
+    role: "OGUN STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107391/WhatsApp_Image_2026-07-03_at_12.49.04_4_yufcsb.jpg",
+  },
+  {
+    name: "OLAJIDE AYORINDE EMMANUEL",
+    role: "OYO STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107392/WhatsApp_Image_2026-07-03_at_12.49.04_2_dosymx.jpg",
+  },
+  {
+    name: "ONILE KAMORUDEEN OLANIRAN ",
+    role: "ONDO STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107393/WhatsApp_Image_2026-07-03_at_12.49.05_wolswa.jpg",
+  },
+  {
+    name: "AMUSA ISHOLA. O. ",
+    role: "EKITI STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107391/WhatsApp_Image_2026-07-03_at_12.49.05_4_z0vdot.jpg",
+  },
+  {
+    name: "AREMU ELIJAH ABIOYE ",
+    role: "OSUN STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784108332/edit_ttoxsq.jpg",
+  },
 ];
 
 function LeaderCard({ leader, index }: { leader: Leader; index: number }) {
@@ -169,7 +202,7 @@ export default function Leadership() {
               tax reform across Nigeria.
             </p>
           </div>
-          <Link
+          {/* <Link
             href="/about"
             className="inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-brand-600"
           >
@@ -177,7 +210,7 @@ export default function Leadership() {
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-6-6 6 6-6 6" />
             </svg>
-          </Link>
+          </Link> */}
         </div>
 
         <motion.div
@@ -191,6 +224,33 @@ export default function Leadership() {
             <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
           ))}
         </motion.div>
+
+        {/* Commissioners subsection */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+              Commissioners
+            </span>
+            <h3 className="mt-3 font-heading text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
+              State Commissioners
+            </h3>
+            <p className="mt-2 text-base text-navy/60">
+              Representing PHHTTAI across Nigeria's states.
+            </p>
+          </div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ staggerChildren: 0.07 }}
+            className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
+          >
+            {commissioners.map((leader, i) => (
+              <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
+            ))}
+          </motion.div>
+        </div>
       </div>
     </section>
   );
