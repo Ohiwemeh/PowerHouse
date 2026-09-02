@@ -99,6 +99,21 @@ const leaders: Leader[] = [
     role: " Director South South",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782988523/WhatsApp_Image_2026-07-02_at_11.16.28_twprzn.jpg",
   },
+  {
+    name: "Hon Mrs Nnenna Chris- Otuonye.",
+    role: "Southeast Zonal Director",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.40_kk8ach.jpg",
+  },
+  {
+    name: "Hon. Suleiman Shika",
+    role: "Northwest Zonal Director",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.40_1_fgmxqd.jpg",
+  },
+  {
+    name: "ALIYU MUHAMMAD RABIU",
+    role: "North Central Zonal Director",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.41_cwxokx.jpg",
+  },
 ];
 
 // State Commissioners get their own subsection below the main leadership grid.
