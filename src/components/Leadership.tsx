@@ -99,10 +99,10 @@ const leaders: Leader[] = [
     role: "Zonal Director, South West",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
   },
-  {
-    name: "Adamu A. Aminu",
-    role: "North East Director.",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784107393/WhatsApp_Image_2026-07-03_at_09.22.43_qd0utq.jpg",
+ {
+    name: "Hon AUWALU SULE MARBINI",
+    role: "Director of Northeast",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_11.38.56_ddnudp.jpg",
   },
   {
     name: "Honourable Chidi Sam Wike",
@@ -114,11 +114,7 @@ const leaders: Leader[] = [
     role: "Southeast Zonal Director",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.40_kk8ach.jpg",
   },
-  {
-    name: "Hon AUWALU SULE MARBINI",
-    role: "Director of Northeast",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_11.38.56_ddnudp.jpg",
-  },
+
   {
     name: "ALIYU MUHAMMAD RABIU",
     role: "North Central Zonal Director",
@@ -128,6 +124,11 @@ const leaders: Leader[] = [
     name: "Anthony obo Claudius ogosu",
     role: "Dir of social welfare south south",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_13.56.32_wp5iye.jpg",
+  },
+  {
+    name: "AGUWA QUEEN IJEOMA",
+    role: "Member National Legal Adviser",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789051432/WhatsApp_Image_2026-09-10_at_15.28.47_iwlogn.jpg",
   },
   {
     name: "NSIKAN ETUKUDO UKPONG, ESQ",
@@ -179,9 +180,9 @@ const commissioners: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_13.46.22_uqvuar.jpg",
   },
   {
-    name: "Anthony obo Claudius ogosu",
-    role: "OSUN STATE COMMISSIONER",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784108332/edit_ttoxsq.jpg",
+    name: "AMB.MRS CHIKEZIE AKUDO AUGUSTA",
+    role: "IMO State Commissioner.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789051480/WhatsApp_Image_2026-09-10_at_15.07.15_cwuac9.jpg",
   },
   
 ];
