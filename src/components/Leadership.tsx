@@ -53,6 +53,11 @@ const leaders: Leader[] = [
     role: "Vice Chairman North",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782985545/WhatsApp_Image_2026-07-01_at_18.04.39_ydom90.jpg",
   },
+  {
+    name: "Amb Cletus Aniekan Ukoh",
+    role: "Vice chairman south",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789046520/WhatsApp_Image_2026-09-10_at_14.13.14_ndyjns.jpg",
+  },
    {
     name: "Eriye felicia",
     role: "Director of Social Welfare",
@@ -85,6 +90,11 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782829467/WhatsApp_Image_2026-06-30_at_09.52.17_mofhwf.jpg",
   },
   {
+    name: "Bar. Obi Joseph Chukwuma ",
+    role: "Secretary, South Region",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789046520/WhatsApp_Image_2026-09-10_at_14.06.02_uj1hvw.jpg",
+  },
+  {
     name: "PROF. SIMEON PETER OLUSOLA GBELEYI (PhD, MD)",
     role: "Zonal Director, South West",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782670419/WhatsApp_Image_2026-06-26_at_12.41.13_1_adtbzl.jpg",
@@ -105,14 +115,24 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.40_kk8ach.jpg",
   },
   {
-    name: "Hon. Suleiman Shika",
-    role: "Northwest Zonal Director",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.40_1_fgmxqd.jpg",
+    name: "Hon AUWALU SULE MARBINI",
+    role: "Director of Northeast",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_11.38.56_ddnudp.jpg",
   },
   {
     name: "ALIYU MUHAMMAD RABIU",
     role: "North Central Zonal Director",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1788359882/WhatsApp_Image_2026-09-02_at_13.54.41_cwxokx.jpg",
+  },
+  {
+    name: "Anthony obo Claudius ogosu",
+    role: "Dir of social welfare south south",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_13.56.32_wp5iye.jpg",
+  },
+  {
+    name: "NSIKAN ETUKUDO UKPONG, ESQ",
+    role: "LEGAL ADVISER SOUTH.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789046520/WhatsApp_Image_2026-09-10_at_14.21.29_vz29sw.jpg",
   },
 ];
 
@@ -148,6 +168,22 @@ const commissioners: Leader[] = [
     role: "OSUN STATE COMMISSIONER",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784108332/edit_ttoxsq.jpg",
   },
+  {
+    name: "AMB. PRINCE AKOR ELIAS AKOR (JP) ",
+    role: "Enugu State Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_13.27.13_fjbcyl.jpg",
+  },
+  {
+    name: "Akpagu Gloria oluchi",
+    role: "Ebonyi State Commissioner.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789045163/WhatsApp_Image_2026-09-10_at_13.46.22_uqvuar.jpg",
+  },
+  {
+    name: "Anthony obo Claudius ogosu",
+    role: "OSUN STATE COMMISSIONER",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1784108332/edit_ttoxsq.jpg",
+  },
+  
 ];
 
 function LeaderCard({ leader, index }: { leader: Leader; index: number }) {
