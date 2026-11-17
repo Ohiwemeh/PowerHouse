@@ -184,6 +184,21 @@ const commissioners: Leader[] = [
     role: "IMO State Commissioner.",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789051480/WhatsApp_Image_2026-09-10_at_15.07.15_cwuac9.jpg",
   },
+  {
+    name: "Hon Ornguga Henry Teryima",
+    role: "Benue state commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_11.49.36_h1q5wv.jpg",
+  },
+  {
+    name: "Hon Kelvin O Ojior",
+    role: "Delta State Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_12.01.56_nosryj.jpg",
+  },
+  {
+    name: "Prof, Bassey Emmanuel",
+    role: "Bayelsa State Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947184/WhatsApp_Image_2026-11-17_at_17.35.05_1_sohjs1.jpg",
+  },
   
 ];
 
