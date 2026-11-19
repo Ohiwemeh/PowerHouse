@@ -192,7 +192,7 @@ const commissioners: Leader[] = [
   {
     name: "Hon Ornguga Henry Teryima",
     role: "Benue state commissioner",
-    image: "https://res.cloudinary.com//dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_11.49.36_h1q5wv.jpg",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_11.49.36_h1q5wv.jpg",
   },
   {
     name: "Hon Kelvin O Ojior",
