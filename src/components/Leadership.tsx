@@ -214,6 +214,11 @@ const commissioners: Leader[] = [
     role: "Akwa Ibom State commissioner",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795082760/WhatsApp_Image_2026-11-18_at_21.13.54_ncwn1o.jpg",
   },
+  {
+    name: "HON. AMB. UMWENI MATHEW ORHUE",
+    role: "Edo State Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795111819/WhatsApp_Image_2026-11-19_at_18.57.18_u7yovr.jpg",
+  },
   
 ];
 
