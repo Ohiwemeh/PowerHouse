@@ -135,6 +135,11 @@ const leaders: Leader[] = [
     role: "LEGAL ADVISER SOUTH.",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1789046520/WhatsApp_Image_2026-09-10_at_14.21.29_vz29sw.jpg",
   },
+  {
+    name: " Amb. Comr. Michael Godspower Eboigbe ",
+    role: "Director, Transport and Logistics (South)",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795082761/WhatsApp_Image_2026-11-18_at_12.15.15_deufkp.jpg",
+  },
 ];
 
 // State Commissioners get their own subsection below the main leadership grid.
@@ -187,7 +192,7 @@ const commissioners: Leader[] = [
   {
     name: "Hon Ornguga Henry Teryima",
     role: "Benue state commissioner",
-    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_11.49.36_h1q5wv.jpg",
+    image: "https://res.cloudinary.com//dfdtcwwh3/image/upload/v1794947165/WhatsApp_Image_2026-11-17_at_11.49.36_h1q5wv.jpg",
   },
   {
     name: "Hon Kelvin O Ojior",
@@ -198,6 +203,16 @@ const commissioners: Leader[] = [
     name: "Prof, Bassey Emmanuel",
     role: "Bayelsa State Commissioner",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1794947184/WhatsApp_Image_2026-11-17_at_17.35.05_1_sohjs1.jpg",
+  },
+  {
+    name: "Hon. Ezege Okon Eja",
+    role: "Cross River Commissioner.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795082760/WhatsApp_Image_2026-11-18_at_13.29.46_zjvafq.jpg",
+  },
+  {
+    name: "Uduak Okokon Ekpeyong",
+    role: "Akwa Ibom State commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795082760/WhatsApp_Image_2026-11-18_at_21.13.54_ncwn1o.jpg",
   },
   
 ];
