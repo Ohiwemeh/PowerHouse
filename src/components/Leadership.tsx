@@ -224,6 +224,11 @@ const commissioners: Leader[] = [
     role: "Edo State Commissioner",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795111819/WhatsApp_Image_2026-11-19_at_18.57.18_u7yovr.jpg",
   },
+  {
+    name: "Ismail Musa Muhammad",
+    role: "Nasarawa Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795182964/WhatsApp_Image_2026-11-20_at_13.59.09_xhjekv.jpg",
+  },
   
 ];
 
