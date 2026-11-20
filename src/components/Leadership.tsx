@@ -140,6 +140,11 @@ const leaders: Leader[] = [
     role: "Director, Transport and Logistics (South)",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795082761/WhatsApp_Image_2026-11-18_at_12.15.15_deufkp.jpg",
   },
+  {
+    name: " Hon. Suleiman Shika",
+    role: "Zonal Director Northwest ",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795177567/WhatsApp_Image_2026-11-20_at_12.37.23_ydc54c.jpg",
+  },
 ];
 
 // State Commissioners get their own subsection below the main leadership grid.

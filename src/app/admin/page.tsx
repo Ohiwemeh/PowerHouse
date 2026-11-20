@@ -14,6 +14,7 @@ type Member = {
   membership_status: "pending" | "active" | "suspended";
   dues_paid: boolean;
   joined_at: string;
+   source?: "signup" | "leadership_list";
 };
 
 const statusConfig = {
@@ -32,9 +33,9 @@ export default function AdminMembersPage() {
   async function loadMembers() {
     const supabase = createClient();
     const { data } = await supabase
-      .from("profiles")
-      .select("id, full_name, business_name, business_category, market_location, phone, membership_status, dues_paid, joined_at")
-      .order("joined_at", { ascending: false });
+  .from("all_members")
+  .select("id, full_name, business_name, business_category, market_location, phone, membership_status, dues_paid, joined_at, source")
+  .order("joined_at", { ascending: false });
     setMembers(data ?? []);
     setLoading(false);
   }
@@ -182,39 +183,43 @@ export default function AdminMembersPage() {
                     <td className="px-5 py-4 text-xs text-navy/45">
                       {new Date(m.joined_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
                     </td>
-                    <td className="px-5 py-4">
-                      <div className="flex gap-1.5">
-                        {m.membership_status !== "active" && (
-                          <button
-                            type="button"
-                            disabled={updating === m.id}
-                            onClick={() => updateStatus(m.id, "active")}
-                            className="rounded-lg bg-green-100 px-2.5 py-1 text-xs font-semibold text-green-700 hover:bg-green-200 transition-colors disabled:opacity-50"
-                          >
-                            Approve
-                          </button>
-                        )}
-                        {m.membership_status !== "suspended" && (
-                          <button
-                            type="button"
-                            disabled={updating === m.id}
-                            onClick={() => updateStatus(m.id, "suspended")}
-                            className="rounded-lg bg-red-100 px-2.5 py-1 text-xs font-semibold text-red-700 hover:bg-red-200 transition-colors disabled:opacity-50"
-                          >
-                            Suspend
-                          </button>
-                        )}
-                        {m.membership_status !== "pending" && (
-                          <button
-                            type="button"
-                            disabled={updating === m.id}
-                            onClick={() => updateStatus(m.id, "pending")}
-                            className="rounded-lg bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-700 hover:bg-amber-200 transition-colors disabled:opacity-50"
-                          >
-                            Pending
-                          </button>
-                        )}
-                      </div>
+                                      <td className="px-5 py-4">
+                      {m.source === "leadership_list" ? (
+                        <span className="text-xs text-navy/35">Coordinator</span>
+                      ) : (
+                        <div className="flex gap-1.5">
+                          {m.membership_status !== "active" && (
+                            <button
+                              type="button"
+                              disabled={updating === m.id}
+                              onClick={() => updateStatus(m.id, "active")}
+                              className="rounded-lg bg-green-100 px-2.5 py-1 text-xs font-semibold text-green-700 hover:bg-green-200 transition-colors disabled:opacity-50"
+                            >
+                              Approve
+                            </button>
+                          )}
+                          {m.membership_status !== "suspended" && (
+                            <button
+                              type="button"
+                              disabled={updating === m.id}
+                              onClick={() => updateStatus(m.id, "suspended")}
+                              className="rounded-lg bg-red-100 px-2.5 py-1 text-xs font-semibold text-red-700 hover:bg-red-200 transition-colors disabled:opacity-50"
+                            >
+                              Suspend
+                            </button>
+                          )}
+                          {m.membership_status !== "pending" && (
+                            <button
+                              type="button"
+                              disabled={updating === m.id}
+                              onClick={() => updateStatus(m.id, "pending")}
+                              className="rounded-lg bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-700 hover:bg-amber-200 transition-colors disabled:opacity-50"
+                            >
+                              Pending
+                            </button>
+                          )}
+                        </div>
+                      )}
                     </td>
                   </motion.tr>
                 ))}
