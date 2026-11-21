@@ -29,6 +29,11 @@ const leaders: Leader[] = [
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_10.04.56_lmufqm.jpg",
   },
   {
+    name: "Prof. Ekaette Ekpo",
+    role: "Director of Women Affairs South.",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795290813/WhatsApp_Image_2026-11-21_at_20.25.48_xfqpkw.jpg",
+  },
+  {
     name: "Timothy Enoch",
     role: "National Director of Conflict & Resolution",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1782384853/WhatsApp_Image_2026-06-25_at_09.27.17_m6djp4.jpg",
