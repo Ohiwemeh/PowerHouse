@@ -11,6 +11,21 @@ type Leader = {
   highlight?: boolean;
 };
 
+function formatRole(role: string) {
+  const titleCased = role
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/[.]$/, "")
+    .toLowerCase()
+    .replace(/(^|[\s,&/()-])([a-z])/g, (_, prefix, letter) =>
+      `${prefix}${letter.toUpperCase()}`,
+    );
+
+  return titleCased
+    .replace(/\bPhhttai\b/g, "PHHTTAI")
+    .replace(/\bPro\b/g, "PRO");
+}
+
 const leaders: Leader[] = [
   {
     name: "Alhaji Hamza Adamu Kyari",
@@ -359,6 +374,31 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "OSUN CENTRAL SENATORIAL DISTRICT COORDINATOR",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795444324/WhatsApp_Image_2026-11-23_at_15.25.19_3_j7elsy.jpg",
   },
+  {
+    name: "Idam Patrick Ibe",
+    role: "Ebonyi South Senatorial Dirtrict Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445446/WhatsApp_Image_2026-11-23_at_15.45.33_z1uyeg.jpg",
+  },
+  {
+    name: "Chukwuma Nonye Christiana",
+    role: "Anambra  South Senatorial Zonal CORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445445/WhatsApp_Image_2026-11-23_at_15.45.34_pwprn3.jpg",
+  },
+  {
+    name: "Victor O. N. Iwuno,Esq,",
+    role: "Zonal Coordinator Anambra Central Senatorial Zone",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445444/WhatsApp_Image_2026-11-23_at_15.45.34_1_fqmn3x.jpg",
+  },
+  {
+    name: "IKEZE CHINYERE ELIZABETH",
+    role: "POST ANAMBRA NORTH SENATORIAL ZONAL COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445444/WhatsApp_Image_2026-11-23_at_15.45.35_fa4omu.jpg",
+  },
+  {
+    name: "Amaka Ann Orogwu Ebonyi North",
+    role: "Senatorial District Coordinator Ebonyi State",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445448/WhatsApp_Image_2026-11-23_at_15.46.52_nybipk.jpg",
+  },
   
  
   
@@ -409,7 +449,7 @@ function LeaderCard({ leader, index }: { leader: Leader; index: number }) {
           <span className="text-navy/30 italic">To be announced</span>
         ) : leader.name}
       </h3>
-      <p className="mt-1 text-xs font-medium text-navy/50">{leader.role}</p>
+      <p className="mt-1 text-xs font-medium text-navy/50">{formatRole(leader.role)}</p>
     </motion.div>
   );
 }
