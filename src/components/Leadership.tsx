@@ -449,7 +449,7 @@ export default function Leadership() {
               State Commissioners
             </h3>
             <p className="mt-2 text-base text-navy/60">
-              Representing PHHTTAI across Nigeria's states.
+             Commissioners representing PHHTTAI across Nigeria's states.
             </p>
           </div>
 
