@@ -237,6 +237,38 @@ const commissioners: Leader[] = [
   
 ];
 
+
+const SenatorialDistrictCoordinator : Leader[] = [
+  {
+    name: "HON ADEDUYITE CHARLES",
+    role: "SENATORIAL DISTRICT COORDINATOR ONDO STATE",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440390/WhatsApp_Image_2026-11-22_at_20.04.32_x1dsx6.jpg",
+  },
+  {
+    name: "AMB MRS SHITTU SHEFIAT ABIMBOLA ",
+    role: "OYO SOUTH SENATORIAL COORDINATOR",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440390/WhatsApp_Image_2026-11-21_at_18.07.48_xiqogb.jpg",
+  },
+  {
+    name: "OJUDU CLEMENT AJAYI",
+    role: "ONDO NORTH SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440390/WhatsApp_Image_2026-11-21_at_20.08.56_yvqyil.jpg",
+  },
+  {
+    name: "OKEBUNMI ABAYOMI ODUNAYO",
+    role: "OYO NORTH SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440391/WhatsApp_Image_2026-11-21_at_20.08.57_dbrudw.jpg",
+  },
+  {
+    name: "Oladunjoye Temitope Ebenezer",
+    role: "Ekiti Central Senatorial Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440390/WhatsApp_Image_2026-11-21_at_20.25.24_rummkw.jpg",
+  },
+  
+ 
+  
+];
+
 function LeaderCard({ leader, index }: { leader: Leader; index: number }) {
   const initials = leader.name === "TBA"
     ? "TBA"
@@ -349,6 +381,32 @@ export default function Leadership() {
             className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
           >
             {commissioners.map((leader, i) => (
+              <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
+            ))}
+          </motion.div>
+        </div>
+        {/* Senatorial District Coordinators subsection */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+              Senatorial District Coordinators
+            </span>
+            <h3 className="mt-3 font-heading text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
+              Senatorial District Coordinators
+            </h3>
+            <p className="mt-2 text-base text-navy/60">
+              Representing PHHTTAI across Nigeria's states.
+            </p>
+          </div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ staggerChildren: 0.07 }}
+            className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
+          >
+            {SenatorialDistrictCoordinator.map((leader, i) => (
               <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
             ))}
           </motion.div>
