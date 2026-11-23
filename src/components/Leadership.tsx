@@ -305,11 +305,6 @@ const SenatorialDistrictCoordinator : Leader[] = [
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.11_a90har.jpg",
   },
   {
-    name: "LADE-FASUA FLORENCE",
-    role: "Ondo Central Senatorial District Coordinator",
-    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.11_a90har.jpg",
-  },
-  {
     name: "EDIAGBONYA MAUREEN IYORE",
     role: "EDO NORTH SENATORIAL DISTRICT COORDINATOR",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.12_mkoa0f.jpg",
