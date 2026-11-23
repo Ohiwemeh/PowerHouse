@@ -264,6 +264,86 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Ekiti Central Senatorial Coordinator",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795440390/WhatsApp_Image_2026-11-21_at_20.25.24_rummkw.jpg",
   },
+  {
+    name: "Adeyemi Tolulope Adeyinka",
+    role: "Post-Osun West Senatorial District Coordinator ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441105/WhatsApp_Image_2026-11-23_at_14.25.08_c8xoto.jpg",
+  },
+  {
+    name: "Biragbara Dornu Gift",
+    role: "Rivers south East Senatorial District Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441104/WhatsApp_Image_2026-11-23_at_14.25.09_dhqkgp.jpg",
+  },
+  {
+    name: "Imasuen Mercy Eunice ",
+    role: "Oyo Central senatorial District Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441104/WhatsApp_Image_2026-11-23_at_14.25.09_1_omjemy.jpg",
+  },
+  {
+    name: "Ojike Ojike Kalu",
+    role: "Abia North Senatorial coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441103/WhatsApp_Image_2026-11-23_at_14.25.09_2_qg44tg.jpg",
+  },
+  {
+    name: "Sofusi Adetutu Olubusayo",
+    role: "Ogun center senatorial district coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.10_pueneh.jpg",
+  },
+  {
+    name: "Dr. Williams Agbam",
+    role: "Rivers East senotorial coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.10_1_jtrksx.jpg",
+  },
+  {
+    name: "Dr NOSIRU TIJANI ABAYOMI,PhD",
+    role: "OGUN WEST SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.10_2_zpq6wa.jpg",
+  },
+  {
+    name: "LADE-FASUA FLORENCE",
+    role: "Ondo Central Senatorial District Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.11_a90har.jpg",
+  },
+  {
+    name: "LADE-FASUA FLORENCE",
+    role: "Ondo Central Senatorial District Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.11_a90har.jpg",
+  },
+  {
+    name: "EDIAGBONYA MAUREEN IYORE",
+    role: "EDO NORTH SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.12_mkoa0f.jpg",
+  },
+  {
+    name: "Amaka Ann Orogwu ",
+    role: "Ebonyi North Senatorial District Coordinator ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.25.12_1_hs7bdi.jpg",
+  },
+  {
+    name: "Samuel chuks onwochei",
+    role: "Lagos State central senatorial district coordinator ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441102/WhatsApp_Image_2026-11-23_at_14.25.13_zckxuy.jpg",
+  },
+  {
+    name: "AMOS IKECHUKWU",
+    role: "ABIA SOUTH SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.25.13_1_cafu42.jpg",
+  },
+  {
+    name: "David Ejoor Igbuduma",
+    role: "Delta South Senatorial Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.25.14_xyrg3i.jpg",
+  },
+  {
+    name: "Hon.Uche Benjamin Chiejina",
+    role: "Delta North Senatorial Coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.25.15_b3zogj.jpg",
+  },
+  {
+    name: "AMB  DR .JAMES GRAHAM",
+    role: "BAYELSA EAST SENATORIAL COORDINATOR ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.31.34_umy7rp.jpg",
+  },
   
  
   
