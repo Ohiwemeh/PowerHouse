@@ -339,6 +339,26 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "BAYELSA EAST SENATORIAL COORDINATOR ",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795441101/WhatsApp_Image_2026-11-23_at_14.31.34_umy7rp.jpg",
   },
+  {
+    name: "Kashimana Lucy Age",
+    role: "Benue north senatorial district coordinator",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795444325/WhatsApp_Image_2026-11-23_at_15.25.16_takhms.jpg",
+  },
+  {
+    name: "ODJUVWUEDERHIE AKEMU ",
+    role: "DELTA CENTRAL SENATORIAL COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795444325/WhatsApp_Image_2026-11-23_at_15.25.19_qdbbi0.jpg",
+  },
+  {
+    name: "IKEZE CHINYERE ELIZABETH",
+    role: "ANAMBRA NORTH SENATORIAL COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795444324/WhatsApp_Image_2026-11-23_at_15.25.19_1_zkbrnc.jpg",
+  },
+  {
+    name: "BELLO GANIYU OLADELE ",
+    role: "OSUN CENTRAL SENATORIAL DISTRICT COORDINATOR",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795444324/WhatsApp_Image_2026-11-23_at_15.25.19_3_j7elsy.jpg",
+  },
   
  
   
