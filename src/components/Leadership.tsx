@@ -249,6 +249,11 @@ const commissioners: Leader[] = [
     role: "Nasarawa Commissioner",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795182964/WhatsApp_Image_2026-11-20_at_13.59.09_xhjekv.jpg",
   },
+  {
+    name: "Dr. Okpukpan Silas Obot",
+    role: "Anambra Commissioner",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499677/WhatsApp_Image_2026-11-23_at_21.34.21_xhdwa7.jpg",
+  },
   
 ];
 
@@ -395,9 +400,34 @@ const SenatorialDistrictCoordinator : Leader[] = [
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445444/WhatsApp_Image_2026-11-23_at_15.45.35_fa4omu.jpg",
   },
   {
-    name: "Amaka Ann Orogwu Ebonyi North",
+    name: "Amaka Ann Orogwu",
     role: "Senatorial District Coordinator Ebonyi State",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795445448/WhatsApp_Image_2026-11-23_at_15.46.52_nybipk.jpg",
+  },
+  {
+    name: "zulike Callistus Uchenna",
+    role: "Senatorial District Coordinator Owerri State",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499676/WhatsApp_Image_2026-11-23_at_20.47.00_axt7rp.jpg",
+  },
+  {
+    name: "Comr. Samuel Odeh ",
+    role: "Senatorial District Coordinator Benue South Center, Zone C.",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499676/WhatsApp_Image_2026-11-24_at_01.00.58_btgmhx.jpg",
+  },
+  {
+    name: "Udoebire,  Mercy Solomon",
+    role: "Senatorial District Coordinator Ikot Ekpene, Akwa Ibom State",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499677/WhatsApp_Image_2026-11-24_at_06.32.10_xfe6z3.jpg",
+  },
+  {
+    name: "PETER NONYE MADUAKO ",
+    role: "Senatorial District Coordinator Orlu zone",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499676/WhatsApp_Image_2026-11-23_at_20.47.00_1_ktgaai.jpg",
+  },
+  {
+    name: "Chima Charles Amaechi",
+    role: "Senatorial District Coordinator Okigwe",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499677/WhatsApp_Image_2026-11-23_at_20.48.07_ca6uh0.jpg",
   },
   
  
