@@ -444,6 +444,16 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Enugu-West",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795502350/WhatsApp_Image_2026-11-24_at_07.26.59_1_uhnunt.jpg",
   },
+  {
+    name: "Bassey Friday Frank",
+    role: "Senatorial District Coordinator Eket",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795537578/WhatsApp_Image_2026-11-24_at_16.28.59_tmdntv.jpg",
+  },
+  {
+    name: "Ann Nworie ",
+    role: "Senatorial District Coordinator Ebonyi central",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795537578/WhatsApp_Image_2026-11-24_at_16.28.58_rq8roo.jpg",
+  },
   
  
   
