@@ -429,6 +429,21 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Okigwe",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795499677/WhatsApp_Image_2026-11-23_at_20.48.07_ca6uh0.jpg",
   },
+  {
+    name: "Dr kamanu Louis orji",
+    role: "Senatorial District Coordinator ENUGU EAST ZONE",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795502363/Screenshot_2026-11-24_073715_jcdv3l.png",
+  },
+  {
+    name: "OGBONNA OLIVER CHUKWUEBUKA",
+    role: "Senatorial District Coordinator ENUGU NORTH",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795502350/WhatsApp_Image_2026-11-24_at_07.26.59_onm50t.jpg",
+  },
+  {
+    name: "Hon Amadi Jude Onyeka",
+    role: "Senatorial District Coordinator Enugu-West",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795502350/WhatsApp_Image_2026-11-24_at_07.26.59_1_uhnunt.jpg",
+  },
   
  
   
