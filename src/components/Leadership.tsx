@@ -474,6 +474,11 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Bayelsa Central  ",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595123/WhatsApp_Image_2026-11-25_at_08.24.46_up0dxp.jpg",
   },
+  {
+    name: "Ogedegbe clement Akhigbe ",
+    role: "Senatorial District Coordinator Edo central ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595426/WhatsApp_Image_2026-11-25_at_09.27.39_k09t9h.jpg",
+  },
   // {
   //   name: "",
   //   role: "Senatorial District Coordinator ",
