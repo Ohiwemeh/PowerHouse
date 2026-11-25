@@ -494,6 +494,16 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Bayelsa West  ",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595665/WhatsApp_Image_2026-11-25_at_09.33.01_jij6b5.jpg",
   },
+  {
+    name: "Emmanuel Ekpo",
+    role: "Senatorial District Coordinator Uyo ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795604825/WhatsApp_Image_2026-11-25_at_10.04.41_1_cmlbyo.jpg",
+  },
+  {
+    name: "Paul Ehiwe",
+    role: "Senatorial District Coordinator Lagos West ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795604825/WhatsApp_Image_2026-11-25_at_11.34.46_nnhylv.jpg",
+  },
   // {
   //   name: "",
   //   role: "Senatorial District Coordinator ",
