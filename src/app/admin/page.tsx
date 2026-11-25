@@ -31,15 +31,28 @@ export default function AdminMembersPage() {
   const [updating, setUpdating] = useState<string | null>(null);
 
   async function loadMembers() {
-    const supabase = createClient();
-    const { data } = await supabase
-  .from("all_members")
-  .select("id, full_name, business_name, business_category, market_location, phone, membership_status, dues_paid, joined_at, source")
-  .order("joined_at", { ascending: false });
-    setMembers(data ?? []);
-    setLoading(false);
+  const supabase = createClient();
+  const pageSize = 1000;
+  let all: Member[] = [];
+  let from = 0;
+
+  while (true) {
+    const { data, error } = await supabase
+      .from("all_members")
+      .select("id, full_name, business_name, business_category, market_location, phone, membership_status, dues_paid, joined_at, source")
+      .order("joined_at", { ascending: false })
+      .order("id", { ascending: true })
+      .range(from, from + pageSize - 1);
+
+    if (error || !data || data.length === 0) break;
+    all = all.concat(data as Member[]);
+    if (data.length < pageSize) break;
+    from += pageSize;
   }
 
+  setMembers(all);
+  setLoading(false);
+}
   useEffect(() => { loadMembers(); }, []);
 
   async function updateStatus(id: string, status: Member["membership_status"]) {
