@@ -454,6 +454,31 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Ebonyi central",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795537578/WhatsApp_Image_2026-11-24_at_16.28.58_rq8roo.jpg",
   },
+  {
+    name: "Elder Samuel Abie Mongbe",
+    role: "Senatorial District Coordinator Northern ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595122/WhatsApp_Image_2026-11-25_at_09.18.42_zbuqsb.jpg",
+  },
+  {
+    name: "Patience Ani Mmonorborn",
+    role: "Senatorial District Coordinator Central ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595122/WhatsApp_Image_2026-11-25_at_09.19.04_p8vxf6.jpg",
+  },
+  {
+    name: "Arit Bassey Nsan ",
+    role: "Senatorial District Coordinator Southern ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595123/WhatsApp_Image_2026-11-25_at_09.19.05_wmvacq.jpg",
+  },
+  {
+    name: "Ebimotimi Weibaa Esq.",
+    role: "Senatorial District Coordinator Bayelsa Central  ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595123/WhatsApp_Image_2026-11-25_at_08.24.46_up0dxp.jpg",
+  },
+  // {
+  //   name: "",
+  //   role: "Senatorial District Coordinator ",
+  //   image:"",
+  // },
   
  
   
