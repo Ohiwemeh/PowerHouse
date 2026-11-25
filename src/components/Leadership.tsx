@@ -165,6 +165,16 @@ const leaders: Leader[] = [
     role: "Zonal Director Northwest ",
     image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795177567/WhatsApp_Image_2026-11-20_at_12.37.23_ydc54c.jpg",
   },
+  {
+    name: "ELDER. DR. GABRIEL MICHAEL COKER",
+    role: "Director of Social Welfare South South",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795599341/WhatsApp_Image_2026-11-25_at_10.18.32_d1cxa2.jpg",
+  },
+  {
+    name: "Amb. Dr. (Hon.) Osayomore Kingsley Omoruyi (DSI)",
+    role: "Zonal Director of Logistics South South",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795599339/WhatsApp_Image_2026-11-25_at_10.24.12_u7xieh.jpg",
+  },
 ];
 
 // State Commissioners get their own subsection below the main leadership grid.
