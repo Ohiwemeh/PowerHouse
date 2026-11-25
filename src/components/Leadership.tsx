@@ -479,6 +479,11 @@ const SenatorialDistrictCoordinator : Leader[] = [
     role: "Senatorial District Coordinator Edo central ",
     image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595426/WhatsApp_Image_2026-11-25_at_09.27.39_k09t9h.jpg",
   },
+  {
+    name: "Joel G.Santos",
+    role: "Senatorial District Coordinator Bayelsa West  ",
+    image:"https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795595665/WhatsApp_Image_2026-11-25_at_09.33.01_jij6b5.jpg",
+  },
   // {
   //   name: "",
   //   role: "Senatorial District Coordinator ",
