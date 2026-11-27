@@ -177,6 +177,66 @@ const leaders: Leader[] = [
   },
 ];
 
+const womenWings: Leader[] = [
+  {
+    name: " KOLAWOLE DEBORAH ABIOLA",
+    role: "Women Wings Representative OSUN STATE",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760834/WhatsApp_Image_2026-11-26_at_19.53.57_g9hqho.jpg",
+  },
+  {
+    name: " ETIM, COMFORT ETIM",
+    role: "Women Wings Representative CROSS RIVER STATE",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760836/WhatsApp_Image_2026-11-26_at_19.53.57_1_zbcnza.jpg",
+  },
+  {
+    name: " AMB(DR) CHIEF MRS FALETI OLUTAYO ADEOLA JP",
+    role: "Women Wings Representative OYO STATE ",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760833/WhatsApp_Image_2026-11-26_at_19.53.57_2_jqjrac.jpg",
+  },
+  {
+    name: "Yusuf Nurat Adetutu",
+    role: "Women Wings Representative Ekiti State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760834/WhatsApp_Image_2026-11-26_at_19.53.57_3_dffoaq.jpg",
+  },
+  {
+    name: "Tarimotimi Torunana",
+    role: "Women Wings Representative Bayelsa State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760834/WhatsApp_Image_2026-11-26_at_19.53.58_idsfyi.jpg",
+  },
+  {
+    name: "Gloria Elama Macauley",
+    role: "Women Wings Representative Lagos State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760834/WhatsApp_Image_2026-11-26_at_19.53.58_1_tdcabg.jpg",
+  },
+  {
+    name: "GLORIA JALOGHO",
+    role: "Women Wings Representative DELTA STATE ",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760838/WhatsApp_Image_2026-11-26_at_20.09.35_wq2wkc.jpg",
+  },
+  {
+    name: "ADEBIYI OLUYEMI ESTHER",
+    role: "Women Wings Representative ONDO STATE",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760833/WhatsApp_Image_2026-11-27_at_03.46.43_vjt10p.jpg",
+  },
+  {
+    name: "Blessing Emmanuel",
+    role: "Women Wings Representative Rivers State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760833/WhatsApp_Image_2026-11-27_at_03.47.34_g0gbve.jpg",
+  },
+  {
+    name: "Madu Florence Tochi ",
+    role: "Women Wings Representative Enugu State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760833/WhatsApp_Image_2026-11-27_at_03.47.34_1_fmmp4x.jpg",
+  },
+  {
+    name: "Ekechukwu Evelyn Nmaugo",
+    role: "Women Wings Representative Imo State",
+    image: "https://res.cloudinary.com/dfdtcwwh3/image/upload/v1795760832/WhatsApp_Image_2026-11-27_at_03.47.35_hhqnt2.jpg",
+  },
+
+
+]
+
 // State Commissioners get their own subsection below the main leadership grid.
 const commissioners: Leader[] = [
   {
@@ -514,6 +574,17 @@ const SenatorialDistrictCoordinator : Leader[] = [
   
 ];
 
+const LocalGovernmentCoordinators : Leader[] = [
+  // {
+  //   name: "",
+  //   role: "Local Government Coordinator ",
+  //   image:"",
+  // },
+  
+ 
+  
+];
+
 function LeaderCard({ leader, index }: { leader: Leader; index: number }) {
   const initials = leader.name === "TBA"
     ? "TBA"
@@ -604,6 +675,33 @@ export default function Leadership() {
           ))}
         </motion.div>
 
+        {/* Women Wings subsection */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+              Women Wings
+            </span>
+            <h3 className="mt-3 font-heading text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
+              Women Wings
+            </h3>
+            <p className="mt-2 text-base text-navy/60">
+              Women Wings representing PHHTTAI across Nigeria's states.
+            </p>
+          </div>
+
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ staggerChildren: 0.07 }}
+            className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
+          >
+            {womenWings.map((leader, i) => (
+              <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
+            ))}
+          </motion.div>
+        </div>
+
         {/* Commissioners subsection */}
         <div className="mt-16">
           <div className="mb-8">
@@ -630,6 +728,7 @@ export default function Leadership() {
             ))}
           </motion.div>
         </div>
+
         {/* Senatorial District Coordinators subsection */}
         <div className="mt-16">
           <div className="mb-8">
@@ -643,6 +742,7 @@ export default function Leadership() {
               Representing PHHTTAI across Nigeria's states.
             </p>
           </div>
+          
 
           <motion.div
             initial="hidden"
@@ -656,6 +756,35 @@ export default function Leadership() {
             ))}
           </motion.div>
         </div>
+        {/* Local Government Coordinators subsection */}
+          <div className= "mt-16">
+            <div className="mb-8">
+              <span className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+                Local Government Coordinators
+              </span>
+              <h3 className="mt-3 font-heading text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
+                Local Government Coordinators
+              </h3>
+              <p className="mt-2 text-base text-navy/60">
+                Representing PHHTTAI across Nigeria's local governments.
+              </p>
+
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.1 }}
+                transition={{ staggerChildren: 0.07 }}
+                className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
+              >
+                {LocalGovernmentCoordinators.map((leader, i) => (
+                  <LeaderCard key={leader.name + leader.role} leader={leader} index={i} />
+                ))}
+
+              </motion.div>
+              
+
+            </div>
+          </div>
       </div>
     </section>
   );
